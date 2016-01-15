@@ -39,14 +39,14 @@ public class Main {
 
     public static void main(final String[] args) throws Exception {
         HiberEntityGetters hiberEntityGetters = new HiberEntityGetters();
-  //      HiberEntity hiberEntity = hiberEntityGetters.getHiberById("CCC71");
+        HiberEntity hiberEntity = hiberEntityGetters.getHiberById("CCC71");
   //      System.out.println(hiberEntity.getAge());
   //      saveHiber();
-        List<HiberEntity> entityList= hiberEntityGetters.getAllLike("CCC%");
+   /*     List<HiberEntity> entityList= hiberEntityGetters.getAllLike("%CCC%");
         for(HiberEntity entity: entityList)
         {
             System.out.println(entity.toString());
-        }
+        }*/
     }
 
     public static void PrintAllEntities()
